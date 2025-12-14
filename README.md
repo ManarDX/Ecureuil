@@ -52,6 +52,3 @@ Assurez-vous que le port série (`COM5` dans le code) corresponde bien au port d
 python Control_Clavier.py
 
 ```
----
-
-Vlez-vous que j'ajoute ou modifie un élément dans ce `README.md` ?
