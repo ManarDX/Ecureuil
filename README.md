@@ -22,9 +22,9 @@ Ce programme utilise le MPU6050 pour lire l'angle Y du mécanisme (y = \text{RAD
 
 
 * **Commandes Série :**
- * `'c'` : Initialise la charge du mécanisme.
- * `'d'` : Tient le mécanisme en position de décharge (maintien du mouvement inverse).
- * `'s'` : Arrête le servomoteur (90°).
+  * `'c'` : Initialise la charge du mécanisme.
+  * `'d'` : Tient le mécanisme en position de décharge (maintien du mouvement inverse).
+  * `'s'` : Arrête le servomoteur (90°).
 
 
 
