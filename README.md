@@ -17,8 +17,8 @@ Ce programme utilise le MPU6050 pour lire l'angle Y du mécanisme (y = \text{RAD
 
 * **Initialisation :** Le servomoteur est mis à l'angle 90° (Stop).
 * **Logique de Contrôle :**
-* Le moteur tourne à 180° (charge) tant que l'angle y est supérieur à 10° (condition d'arrêt du chargement).
-* La décharge se fait à 0° (mouvement inverse).
+  * Le moteur tourne à 180° (charge) tant que l'angle y est supérieur à 10° (condition d'arrêt du chargement).
+  * La décharge se fait à 0° (mouvement inverse).
 
 
 * **Commandes Série :**
