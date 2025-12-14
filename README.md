@@ -13,7 +13,7 @@ Ce dépôt contient le code nécessaire à la mise en œuvre et au contrôle du 
 
 ## 🕹️ Utilisation du Système
 ### 1. Code Arduino (`Arduino.ino`)
-Ce programme utilise le MPU6050 pour lire l'angle Y du mécanisme (y = \text{RAD\_TO\_DEG} \times (\arctan2(-x\text{Ang}, -z\text{Ang}) + \pi)) avec un lissage sur six échantillons (`lastY1` à `lastY6`).
+Ce programme utilise le MPU6050 pour lire l'angle Y du mécanisme ($y = \text{RAD\_TO\_DEG} \times (\arctan2(-x\text{Ang}, -z\text{Ang}) + \pi)$) avec un lissage sur six échantillons (`lastY1` à `lastY6`).
 
 * **Initialisation :** Le servomoteur est mis à l'angle 90° (Stop).
 * **Logique de Contrôle :**
